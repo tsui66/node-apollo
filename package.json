@@ -1,0 +1,26 @@
+{
+  "name": "node-apollo",
+  "version": "1.0.0",
+  "description": "携程Apollo配置中心SDK。",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@code.aliyun.com:ecarx-web/node-apollo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "apollo",
+    "config"
+  ],
+  "author": "Quinton.xu@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.5.3"
+  },
+  "dependencies": {
+    "urllib": "^2.25.0"
+  }
+}
