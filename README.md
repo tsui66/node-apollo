@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-$ npm i node-apollo --save-dev --registry=http://http://116.62.161.40:7002
+$ npm i node-apollo --save-dev
 ```
 
 ## Usage
