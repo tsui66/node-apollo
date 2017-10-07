@@ -16,8 +16,8 @@ describe('#index', function () {
       token: '<apollo access token>'
       // clientIp: '',
     };
-    // const result = await apollo.remoteConfigService(config);
-    // assert(Object.keys(result).length > 0, 'Read config failed');
+    const result = await apollo.remoteConfigService(config);
+    assert(Object.keys(result).length > 0, 'Read config failed');
   });
   it('index.createEnvFile', async () => {
     const eggConfig = {

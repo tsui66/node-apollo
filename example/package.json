@@ -1,0 +1,16 @@
+{
+  "name": "apollo_docker_web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "First Last <first.last@example.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "node-apollo": "^1.1.0"
+  }
+}
