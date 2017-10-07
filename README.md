@@ -17,7 +17,6 @@ Node.js >= 6.0.0 required.
 ## Usage
 
 * See [examples](https://github.com/Quinton/node-apollo/tree/master/example)
-* TODO: 支持部分热更新
 
 ## remoteConfigService
 ```
@@ -47,6 +46,11 @@ Node.js >= 6.0.0 required.
 apollo.setEnv();
 ```
 >**NOTE:** 注入环境变量到process.env, 详情亲参考[dotenv](https://github.com/motdotla/dotenv#usage).
+
+## TODO
+  
+ - [] 支持局部配置热更新
+
 ## License
 
 [MIT](LICENSE)
