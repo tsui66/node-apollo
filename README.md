@@ -7,13 +7,17 @@
 ```bash
 $ npm i node-apollo --save-dev
 ```
+Node.js >= 6.0.0 required.
+
+## Features
+
+- ✔︎ 适用eggjs, thinkjs等docker部署项目
+- ✔︎ 适用自己手动搭建的服务，可直接读取JSON格式的配置
 
 ## Usage
 
-* 创建namesapce
-* [获取Apollo token](https://github.com/ctripcorp/apollo/wiki/Apollo%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0)
-* see test example
-* 目前只支持JSON格式
+* See [examples](https://github.com/Quinton/node-apollo/tree/master/example)
+* TODO: 支持部分热更新
 
 ## License
 
