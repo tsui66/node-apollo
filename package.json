@@ -1,6 +1,6 @@
 {
   "name": "node-apollo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "携程Apollo配置中心SDK。",
   "main": "index.js",
   "scripts": {
