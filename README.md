@@ -1,3 +1,13 @@
+[![NPM version][npm-image]][npm-url]
+[![David deps][david-image]][david-url]
+[![npm download][download-image]][download-url]
+
+[npm-image]: https://img.shields.io/npm/v/node-apollo.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/node-apollo
+[david-image]: https://img.shields.io/david/Quinton/node-apollo.svg?style=flat-square
+[david-url]: https://david-dm.org/Quinton/node-apollo/repo.svg
+[download-image]: https://img.shields.io/npm/dm/node-apollo.svg?style=flat-square
+[download-url]: https://npmjs.org/package/node-apollo
 # node-apollo
 
   携程Apollo配置中心node SDK.
