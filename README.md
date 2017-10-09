@@ -46,11 +46,11 @@ Node.js >= 6.0.0 required.
   >**NOTE:** 读取携程Apollo配置，调用第三方应用接入Apollo开放平台， 详情请参考[Apollo开放平台](https://github.com/ctripcorp/apollo/wiki/Apollo%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0).
 ### apollo# ```createEnvFile(envConfig)```
 ```
-  const obj = {
+  const envConfig = {
       mongoose: 'mongo://127.0.0.1:27017',
       appId: '<appId>',
     };
-  apollo.createEnvFile(eggConfig);
+  apollo.createEnvFile(envConfig);
 ```
 >**NOTE:** 生成环境变量文件，常用于docker化项目，详细请参考[example](https://github.com/Quinton/node-apollo/tree/master/example).
 ### apollo# ```setEnv()```
