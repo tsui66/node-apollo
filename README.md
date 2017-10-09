@@ -57,7 +57,7 @@ Node.js >= 6.0.0 required.
 ```
 apollo.setEnv();
 ```
->**NOTE:** 注入环境变量到process.env, 详情亲参考[dotenv](https://github.com/motdotla/dotenv#usage).
+>**NOTE:** 注入环境变量到process.env, 详情请参考[dotenv](https://github.com/motdotla/dotenv#usage).
 
 ## TODO
   
