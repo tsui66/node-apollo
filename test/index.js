@@ -20,7 +20,7 @@ describe('#index', function () {
     assert(Object.keys(result).length > 0, 'Read config failed');
   });
   // 通过带缓存的Http接口从Apollo读取配置
-  it('index.remoteConfigServiceSikpCache', async () => {
+  it('index.remoteConfigServiceFromCache', async () => {
     const eggConfig = {
       configServerUrl: 'http://example.com',
       appId: '<appId>',
@@ -28,7 +28,7 @@ describe('#index', function () {
       namespaceName: [ 'namespaceName1', 'namespaceName1' ],
       // clientIp: '',
     };
-    const result = await apollo.remoteConfigServiceSikpCache(eggConfig);
+    const result = await apollo.remoteConfigServiceFromCache(eggConfig);
     console.log(result)
     assert(Object.keys(result).length > 0, 'Read config failed');
   });
