@@ -19,6 +19,32 @@ describe('#index', function () {
     const result = await apollo.remoteConfigService(eggConfig);
     assert(Object.keys(result).length > 0, 'Read config failed');
   });
+  // 通过带缓存的Http接口从Apollo读取配置
+  it('index.remoteConfigServiceSikpCache', async () => {
+    const eggConfig = {
+      configServerUrl: 'http://example.com',
+      appId: '<appId>',
+      clusterName: 'default',
+      namespaceName: [ 'namespaceName1', 'namespaceName1' ],
+      // clientIp: '',
+    };
+    const result = await apollo.remoteConfigServiceSikpCache(eggConfig);
+    console.log(result)
+    assert(Object.keys(result).length > 0, 'Read config failed');
+  });
+  // 通过不带缓存的Http接口从Apollo读取配置
+  it('index.remoteConfigServiceSikpCache', async () => {
+    const eggConfig = {
+      configServerUrl: 'http://example.com',
+      appId: '<appId>',
+      clusterName: 'default',
+      namespaceName: [ 'namespaceName1', 'namespaceName1' ],
+      // clientIp: '',
+    };
+    const result = await apollo.remoteConfigServiceSikpCache(eggConfig);
+    assert(Object.keys(result).length > 0, 'Read config failed');
+  });
+
   it('index.createEnvFile', async () => {
     const eggConfig = {
       configServerUrl: 'http://example.com',
