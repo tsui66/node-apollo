@@ -25,7 +25,7 @@ describe('#index', function () {
       configServerUrl: 'http://example.com',
       appId: '<appId>',
       clusterName: 'default',
-      namespaceName: [ 'namespaceName1', 'namespaceName1' ],
+      namespaceName: [ 'namespaceName1', 'namespaceName2' ],
       // clientIp: '',
     };
     const result = await apollo.remoteConfigServiceFromCache(eggConfig);
@@ -38,7 +38,7 @@ describe('#index', function () {
       configServerUrl: 'http://example.com',
       appId: '<appId>',
       clusterName: 'default',
-      namespaceName: [ 'namespaceName1', 'namespaceName1' ],
+      namespaceName: [ 'namespaceName1', 'namespaceName2' ],
       // clientIp: '',
     };
     const result = await apollo.remoteConfigServiceSikpCache(eggConfig);
