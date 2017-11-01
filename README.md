@@ -63,7 +63,7 @@ Node.js >= 6.0.0 required.
       clusterName: 'default',
       namespaceName: '',  //no surport multi namespace name, optional
       apolloEnv: 'dev',
-      token: '<apollo access token>'
+      token: '<apollo access token>', // required
       // clientIp: '',
     };
   const result = await apollo.remoteConfigService(config);
