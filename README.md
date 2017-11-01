@@ -36,7 +36,7 @@ Node.js >= 6.0.0 required.
     configServerUrl: 'http://example.com',
     appId: '<appId>',
     clusterName: 'default',
-    namespaceName: [ 'namespaceName1', 'namespaceName1' ],
+    namespaceName: [ 'namespaceName1', 'namespaceName2' ],
     // clientIp: '',
     };
   const result = await apollo.remoteConfigServiceFromCache(config);
@@ -48,7 +48,7 @@ Node.js >= 6.0.0 required.
     configServerUrl: 'http://example.com',
     appId: '<appId>',
     clusterName: 'default',
-    namespaceName: [ 'namespaceName1', 'namespaceName1' ],
+    namespaceName: [ 'namespaceName1', 'namespaceName2' ],
     // clientIp: '',
     };
   const result = await apollo.remoteConfigServiceSikpCache(config);
@@ -67,7 +67,7 @@ Node.js >= 6.0.0 required.
     };
   const result = await apollo.remoteConfigService(config);
 ```
-  >**NOTE:** 通过不带缓存的Http接口从Apollo读取配置， 详情请参考[Apollo开放平台](https://github.com/ctripcorp/apollo/wiki/Apollo%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0).
+  >**NOTE:** 读取携程Apollo配置，调用第三方应用接入Apollo开放平台， 详情请参考[Apollo开放平台](https://github.com/ctripcorp/apollo/wiki/Apollo%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0).
 ### apollo# ```createEnvFile(envConfig)```
 ```
   const envConfig = {
