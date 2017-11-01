@@ -36,7 +36,7 @@ Node.js >= 6.0.0 required.
     configServerUrl: 'http://example.com',
     appId: '<appId>',
     clusterName: 'default',
-    namespaceName: [ 'namespaceName1', 'namespaceName2' ],
+    namespaceName: [ 'namespaceName1', 'namespaceName2' ], // n1的配置会被n2配置覆盖
     // clientIp: '',
     };
   const result = await apollo.remoteConfigServiceFromCache(config);
@@ -48,8 +48,9 @@ Node.js >= 6.0.0 required.
     configServerUrl: 'http://example.com',
     appId: '<appId>',
     clusterName: 'default',
-    namespaceName: [ 'namespaceName1', 'namespaceName2' ],
-    // clientIp: '',
+    namespaceName: [ 'namespaceName1', 'namespaceName2' ], // n1的配置会被n2配置覆盖
+    // clientIp: '', // optional
+    // releaseKey: '', // optional
     };
   const result = await apollo.remoteConfigServiceSikpCache(config);
 ```
@@ -60,7 +61,7 @@ Node.js >= 6.0.0 required.
       configServerUrl: 'http://example.com',
       appId: '<appId>',
       clusterName: 'default',
-      namespaceName: '',
+      namespaceName: '',  //no surport multi namespace name, optional
       apolloEnv: 'dev',
       token: '<apollo access token>'
       // clientIp: '',
