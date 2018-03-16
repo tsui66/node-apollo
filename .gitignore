@@ -1,5 +1,4 @@
 node_modules
-package-lock.json
 default.env
 example/node_modules
 example/package-lock.json
