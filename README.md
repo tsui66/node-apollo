@@ -21,7 +21,7 @@ Node.js >= 6.0.0 required.
 
 ## Features
 
-- ✔︎ 适用eggjs, thinkjs等docker部署项目
+- ✔︎ 适用eggjs([egg-apollojs](https://github.com/yhj2009/egg-apollojs)), thinkjs等docker部署项目
 - ✔︎ 适用自己手动搭建的服务，可直接读取JSON格式的配置
 
 ## Usage
