@@ -4,7 +4,7 @@ require('node-apollo').setEnv(); // As early as possible in your application, re
 
 const express = require('express');
 
-// Read PROT & HOST from process.env
+// Read PORT & HOST from process.env
 const PORT = process.env.PORT;
 const HOST = process.env.HOST;
 
