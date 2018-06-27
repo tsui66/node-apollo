@@ -86,7 +86,7 @@ apollo.setEnv();
 
 ## TODO
   
- - [] 支持局部配置热更新
+ - [X] 支持局部配置热更新
 
 ## License
 
