@@ -86,7 +86,8 @@ apollo.setEnv();
 
 ## TODO
   
- - [X] 支持局部配置热更新
+ - ~~[x] 支持局部配置热更新~~
+>**NOTE:** 不支持热更新，具体原因和方案请参考：[关于eggjs热部署问题 ](https://github.com/eggjs/egg/issues/947)
 
 ## License
 
