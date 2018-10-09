@@ -17,7 +17,7 @@
 ```bash
 $ npm i node-apollo --save-dev
 ```
-Node.js >= 6.0.0 required.
+Node.js >= v7.6.0 required.
 
 ## Features
 
