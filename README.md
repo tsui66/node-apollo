@@ -23,6 +23,7 @@ Node.js >= v7.6.0 required.
 
 - ✔︎ 适用eggjs([egg-apollojs](https://github.com/yhj2009/egg-apollojs)), thinkjs等docker部署项目
 - ✔︎ 适用自己手动搭建的服务，可直接读取JSON格式的配置
+- ✔︎ 增加支持http/https协议请求
 
 ## Usage
 
@@ -33,7 +34,8 @@ Node.js >= v7.6.0 required.
 ### apollo# ```remoteConfigServiceFromCache(config)```
 ```
   const config = {
-    configServerUrl: 'http://example.com',
+    configServerUrl: 'http://example.com',   
+    // configServerUrl: 'https://example.com', // Support https
     appId: '<appId>',
     clusterName: 'default',
     namespaceName: [ 'namespaceName1', 'namespaceName2' ], // n1的配置会被n2配置覆盖
@@ -45,7 +47,8 @@ Node.js >= v7.6.0 required.
 ### apollo# ```remoteConfigServiceSkipCache(config)```
 ```
   const config = {
-    configServerUrl: 'http://example.com',
+    configServerUrl: 'http://example.com', 
+    // configServerUrl: 'https://example.com', // Support https
     appId: '<appId>',
     clusterName: 'default',
     namespaceName: [ 'namespaceName1', 'namespaceName2' ], // n1的配置会被n2配置覆盖
@@ -58,7 +61,8 @@ Node.js >= v7.6.0 required.
 ### apollo# ```remoteConfigService(config)```
 ```
   const config = {
-      configServerUrl: 'http://example.com',
+      configServerUrl: 'http://example.com',  
+      // configServerUrl: 'https://example.com',  // Support https
       appId: '<appId>',
       clusterName: 'default',
       namespaceName: '',  //no surport multi namespace name, optional
