@@ -1,6 +1,7 @@
 [![NPM version][npm-image]][npm-url]
 [![David deps][david-image]][david-url]
 [![npm download][download-image]][download-url]
+[![Build Status](https://travis-ci.org/Quinton/node-apollo.svg?branch=master)](https://travis-ci.org/Quinton/node-apollo)
 
 [npm-image]: https://img.shields.io/npm/v/node-apollo.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/node-apollo
